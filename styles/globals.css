@@ -1,0 +1,122 @@
+:root {
+  --gris: #3d3d3d;
+  --gris2: #6f6f6f;
+  --gris3: #e1e1e1;
+  --naranja: #da552f;
+  --naranjaclaro: #e27050;
+}
+
+html {
+  font-family: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Roboto Slap", serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "PT Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 2rem 0;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  padding-left: 1rem;
+  color: var(--gris2);
+  font-family: "PT Sans", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.bg-color {
+  background-color: #da552f !important;
+  color: white !important;
+}
+img {
+  max-width: 100%;
+}
+
+.boton {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid #d1d1d1;
+  padding: 0.5rem 1.6rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-right: 1rem;
+  background-color: white;
+  color: #000;
+}
+
+.formulario {
+  max-width: 600px;
+  width: 95%;
+  margin: 2rem auto 0 auto;
+}
+.campo-formulario {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.campo-formulario label {
+  flex: 0 0 150px;
+  font-size: 1.2rem;
+}
+.campo-formulario input {
+  flex: 1;
+  padding: 0.6rem;
+}
+
+.btn-registro {
+  background-color: var(--naranja);
+  width: 100%;
+  padding: 1.1rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
+
+.btn-registro:hover {
+  cursor: pointer;
+  background-color: var(--naranjaclaro);
+}
+.listado-productos {
+  background-color: #f3f3f3;
+}
+.contenedor {
+  max-width: 100vw;
+  width: 95%;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+.bg-white {
+  background-color: #fff;
+}
